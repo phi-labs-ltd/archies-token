@@ -1,12 +1,3 @@
-# ArchID Token Collection (AID)
- 
-- **Mainnet Contract**: `archway1cf5rq0amcl5m2flqrtl4gw2mdl3zdec9vlp5hfa9hgxlwnmrlazsdycu4l`
-- **Testnet Contract**: `archway146htsfvftmq8fl26977w9xgdwmsptr2quuf7yyra4j0gttx32z3secq008`
-
-For information about integrating with this package see the [documentation](https://docs.archid.app)
-
-# Developing
-
 ##  Archway Network Starter Pack
 
 This is a template to build smart contracts in Rust to run inside a
