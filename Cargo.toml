@@ -36,13 +36,13 @@ optimize = """docker run --rm -v "$(pwd)":/code \
   -e CARGO_TERM_COLOR=always \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.12.5
+  cosmwasm/rust-optimizer:0.13.0
 """
 
 [dependencies]
 cosmwasm-std = "~1.0.0-beta"
 cw2 = "0.11"
-cw721-base-updatable = "1.0.0"
+cw721-base-updatable = { version = "1.0.0", features = ["library"] }
 cw721-updatable = "1.0.0"
 schemars = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"] }
