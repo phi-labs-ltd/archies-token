@@ -12,7 +12,43 @@
       "query": "archwayd query wasm",
       "tx": "archwayd tx wasm execute"
     },
-    "deployments": []
+    "deployments": [
+      {
+        "project": "archies-token",
+        "type": "set-metadata",
+        "chainId": "constantine-3",
+        "codeId": 1773,
+        "txhash": "197784015C809373F8167860B0C14672009492BADCF1CFB33464AD35C58BD99F",
+        "contract": "archway1a32qjhagwea8yexdk9tgpyhyh34fmwgxpqx9khejtqdn8ac8r70s2cdqca",
+        "contractMetadata": {
+          "ownerAddress": "archway1d4mz3n63m6gm608d2qctleersn2z2xumqjlj7z",
+          "rewardsAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "instantiate",
+        "chainId": "constantine-3",
+        "codeId": 1773,
+        "txhash": "1BE4E5E33C71B2C507F29DF9A2A76EDF3566E3DEC07050CEC0B7D84D860963DF",
+        "address": "archway1a32qjhagwea8yexdk9tgpyhyh34fmwgxpqx9khejtqdn8ac8r70s2cdqca",
+        "admin": "archway1d4mz3n63m6gm608d2qctleersn2z2xumqjlj7z",
+        "label": "archies-token 0.1.0",
+        "args": {
+          "name": "archies",
+          "symbol": "ARC",
+          "minter": "archway1j9f2f0sh50yf50f9d3t7npq2usyzz9a963j9kw2e9sxfxrv829pqx2klny"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "store",
+        "chainId": "constantine-3",
+        "codeId": 1773,
+        "checksum": "b0e0fa9a2ff1a345e9c99119c2c86180939a2c6f9a7f178dad4511c03d47ad7e",
+        "txhash": "5A36885F31A30926F7E14EE19195EB0854721D153FAFA86A34D412FCF624CB23"
+      }
+    ]
   },
   "network": {
     "name": "constantine",
