@@ -1,5 +1,5 @@
 {
-  "name": "archid-token",
+  "name": "archies-token",
   "developer": {
     "archwayd": {
       "docker": false
@@ -28,7 +28,7 @@
     },
     "wasm": {
       "bech32Hrp": "archway",
-      "archwayd": "1.0.1",
+      "archwayd": "4.0.2",
       "configDir": ".archway",
       "binary": "archwayd"
     },
