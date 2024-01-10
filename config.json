@@ -18,6 +18,33 @@
         "type": "set-metadata",
         "chainId": "constantine-3",
         "codeId": 1773,
+        "txhash": "A6D15C60FFFC567B7F4DEC4C67919BEB76083DFF5FEC72625CA62030C3D34CA1",
+        "contract": "archway1hp9hwakpwxvvgvydzhsnazr36qym5m3j73ud5e3yfz9elvhv2flq3a9wqz",
+        "contractMetadata": {
+          "ownerAddress": "archway1d4mz3n63m6gm608d2qctleersn2z2xumqjlj7z",
+          "rewardsAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "instantiate",
+        "chainId": "constantine-3",
+        "codeId": 1773,
+        "txhash": "61244A07C9260AECFE59787947B67249EC486A89EF944BC9FC27897CB7B16802",
+        "address": "archway1hp9hwakpwxvvgvydzhsnazr36qym5m3j73ud5e3yfz9elvhv2flq3a9wqz",
+        "admin": "archway1d4mz3n63m6gm608d2qctleersn2z2xumqjlj7z",
+        "label": "archies-token 0.1.0",
+        "args": {
+          "name": "archies",
+          "symbol": "ARC",
+          "minter": "archway1yzsw2lt824a9r2l93me46r5xe8zt2ajkmal95ur9hq4xw90lurpqtj2gk6"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "set-metadata",
+        "chainId": "constantine-3",
+        "codeId": 1773,
         "txhash": "197784015C809373F8167860B0C14672009492BADCF1CFB33464AD35C58BD99F",
         "contract": "archway1a32qjhagwea8yexdk9tgpyhyh34fmwgxpqx9khejtqdn8ac8r70s2cdqca",
         "contractMetadata": {
