@@ -16,6 +16,41 @@
       {
         "project": "archies-token",
         "type": "set-metadata",
+        "chainId": "archway-1",
+        "codeId": 403,
+        "txhash": "815A964D112FD06597C804731A7CA79C3AE9F3DE7D3BAE623A96E3E3C3CB59E0",
+        "contract": "archway1r9qqfl2ptc96frn3tx4k2n967xc64uwxg2j9xn2rvsm882fu04kq3hutsv",
+        "contractMetadata": {
+          "ownerAddress": "archway1uj6tc6h4fxqm7y3za22fgn6k75q674sud95zw3",
+          "rewardsAddress": "archway1uj6tc6h4fxqm7y3za22fgn6k75q674sud95zw3"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "instantiate",
+        "chainId": "archway-1",
+        "codeId": 403,
+        "txhash": "22948E7DDA886A1DE49E7124DA1101F78F5C619E733B6E0406AE5CD0077BFFFE",
+        "address": "archway1r9qqfl2ptc96frn3tx4k2n967xc64uwxg2j9xn2rvsm882fu04kq3hutsv",
+        "admin": "archway1uj6tc6h4fxqm7y3za22fgn6k75q674sud95zw3",
+        "label": "Archies NFT",
+        "args": {
+          "name": "Archies",
+          "symbol": "ARCHIES",
+          "minter": "archway1kdwvrsptuucyhu2jtsa3qzxpctjruek6r6jffj6cqm7y83ng575sm95czz"
+        }
+      },
+      {
+        "project": "archies-token",
+        "type": "store",
+        "chainId": "archway-1",
+        "codeId": 403,
+        "checksum": "b0e0fa9a2ff1a345e9c99119c2c86180939a2c6f9a7f178dad4511c03d47ad7e",
+        "txhash": "ADC352C66C05329AF26BDFD335572EDB8EAE5432A5B95FAC01DBC518BBDADA94"
+      },
+      {
+        "project": "archies-token",
+        "type": "set-metadata",
         "chainId": "constantine-3",
         "codeId": 1773,
         "txhash": "A685DAB9EC4892DC7BE7E231E487312FA165B33ECD10BC7E47A2EF49A84EECB7",
@@ -132,26 +167,26 @@
     ]
   },
   "network": {
-    "name": "constantine",
-    "chainId": "constantine-3",
-    "type": "testnet",
+    "name": "Archway",
+    "chainId": "archway-1",
+    "type": "mainnet",
     "fees": {
-      "feeDenom": "aconst"
+      "feeDenom": "aarch"
     },
     "gas": {
-      "prices": "900000000000.000000000000000000aconst",
+      "prices": "0.002aarch",
       "mode": "auto",
-      "adjustment": 1.4
+      "adjustment": "1.5"
     },
     "wasm": {
       "bech32Hrp": "archway",
-      "archwayd": "4.0.2",
+      "archwayd": "6.0.0-rc.4",
       "configDir": ".archway",
       "binary": "archwayd"
     },
     "urls": {
       "rpc": {
-        "url": "https://rpc.constantine.archway.tech",
+        "url": "https://rpc.mainnet.archway.io",
         "port": 443
       }
     }
