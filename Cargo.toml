@@ -1,6 +1,6 @@
 [package]
 name = "archies-token"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Drew Taylor <drew.taylor@philabs.xyz>"]
 edition = "2021"
 
@@ -40,7 +40,7 @@ optimize = """docker run --rm -v "$(pwd)":/code \
 """
 
 [dependencies]
-cosmwasm-std = "~1.0.0-beta"
+cosmwasm-std = "1.0.0"
 cw2 = "0.11"
 cw721-base-updatable = { version = "1.0.0", features = ["library"] }
 cw721-updatable = "1.0.0"
